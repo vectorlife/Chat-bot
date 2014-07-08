@@ -30,9 +30,9 @@ namespace bot
 			while (true)
 			{
 				string x = Console.ReadLine();
-				x = x.ToUpper ();
-				if (x.Contains ("ПОКА") || x.Contains ("ДОСВИДАНИЯ") || x.Contains ("ПРОЩАЙ") || x.Contains ("ББ") || x.Contains ("ДО ЗАВТРА") || x.Contains ("СЛАДКИХ СНОВ") || x.Contains ("УВИДИМСЯ") 
-					|| x.Contains ("Я УХОЖУ")) Console.WriteLine ("Пока");
+				x = x.ToUpper (); 
+				if (x.Contains ("ПОКА") || x.Contains ("ДО СВИДАНИЯ") || x.Contains ("ПРОЩАЙ") || x.Contains ("ББ") || x.Contains ("ДО ЗАВТРА") || x.Contains ("СЛАДКИХ СНОВ") || x.Contains ("УВИДИМСЯ") 
+				    || x.Contains ("Я УХОЖУ") || x.Contains("")) Console.WriteLine ("Пока");
 			}
 
 		}
