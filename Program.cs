@@ -29,10 +29,17 @@ namespace bot
 			Console.WriteLine ("Начните со мной беседу");
 			while (true)
 			{
+				d
 				string x = Console.ReadLine();
-				x = x.ToUpper (); 
+				x = x.ToUpper ();
+				 
 				if (x.Contains ("ПОКА") || x.Contains ("ДО СВИДАНИЯ") || x.Contains ("ПРОЩАЙ") || x.Contains ("ББ") || x.Contains ("ДО ЗАВТРА") || x.Contains ("СЛАДКИХ СНОВ") || x.Contains ("УВИДИМСЯ") 
 				    || x.Contains ("Я УХОЖУ") || x.Contains(" ")) Console.WriteLine ("Пока");
+				if (x.Contains ("УДИВИ МЕНЯ") || (x.Contains ("ДНК")) Console.WriteLine ("ДНК - это сокращённо дезоксирибонуклеиновая кислота");
+				if (x.Contains ("КУПИ СЛОНА")) Console.WriteLine ("Сколько стоит? Всё отдам!");
+				    if (x.Contains ("КАК ТЕБЯ ЗВАТЬ") || (x.Contains ("НАЗОВИСЬ")) Console.WriteLine ("Геннадий"); 
+				if (x.Contains ("Я ТЕБЯ")) Console.WriteLine ("Взаимно");
+				if (x.Contains ("ДИХЛОР ДИФИНИН БУТАР")) Console.WriteLine ("Я в химии не силён");
 			}
 
 		}
