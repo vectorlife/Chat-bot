@@ -37,9 +37,13 @@ namespace bot
 				    || x.Contains ("Я УХОЖУ") || x.Contains(" ")) Console.WriteLine ("Пока");
 				if (x.Contains ("УДИВИ МЕНЯ") || (x.Contains ("ДНК")) Console.WriteLine ("ДНК - это сокращённо дезоксирибонуклеиновая кислота");
 				if (x.Contains ("КУПИ СЛОНА")) Console.WriteLine ("Сколько стоит? Всё отдам!");
-				    if (x.Contains ("КАК ТЕБЯ ЗВАТЬ") || (x.Contains ("НАЗОВИСЬ")) Console.WriteLine ("Геннадий"); 
+			    if (x.Contains ("КАК ТЕБЯ ЗВАТЬ") || (x.Contains ("НАЗОВИСЬ")) Console.WriteLine ("Геннадий"); 
 				if (x.Contains ("Я ТЕБЯ")) Console.WriteLine ("Взаимно");
 				if (x.Contains ("ДИХЛОР ДИФИНИН БУТАР")) Console.WriteLine ("Я в химии не силён");
+				if (x.Contains ("БОЛЬШОЕ СПАСИБО")) Console.WriteLine ("Большое пожалуйста!");
+				if (x.Contains ("У МЕНЯ ИДЕЯ") || (x.Contains ("У МЕНЯ ЧУДЕСНАЯ ИДЕЯ") || x.Contains ("У МЕНЯ ОТЛИЧНАЯ ИДЕЯ") || x.Contains ("У МЕНЯ БЕЗУМНАЯ ИДЕЯ")
+				                               || x.Contains ("У МЕНЯ СТРАННАЯ ИДЕЯ") x.Contains ("У МЕНЯ ПЛОХАЯ ИДЕЯ")) Console.WriteLine ("Поясни мне план своих действий") 
+				if (x.Contains ("") 
 			}
 
 		}
