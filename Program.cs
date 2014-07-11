@@ -43,7 +43,9 @@ namespace bot
 				if (x.Contains ("БОЛЬШОЕ СПАСИБО")) Console.WriteLine ("Большое пожалуйста!");
 				if (x.Contains ("У МЕНЯ ИДЕЯ") || (x.Contains ("У МЕНЯ ЧУДЕСНАЯ ИДЕЯ") || x.Contains ("У МЕНЯ ОТЛИЧНАЯ ИДЕЯ") || x.Contains ("У МЕНЯ БЕЗУМНАЯ ИДЕЯ")
 				                               || x.Contains ("У МЕНЯ СТРАННАЯ ИДЕЯ") x.Contains ("У МЕНЯ ПЛОХАЯ ИДЕЯ")) Console.WriteLine ("Поясни мне план своих действий") 
-				if (x.Contains ("") 
+				if (x.Contains ("С НОВЫМ ГОДОМ") || x.Contains ("С 1 АПРЕЛЯ") || x.Contains ("С ДНЁМ ДУРАКА") || x.Contains ("С ДНЕМ ДУРАКА") || x.Contains ("С ДНЕМ СВЯТОГО ВАЛЕНТИНА") ||
+				    x.Contains ("С ДНЁМ СВЯТОГО ВАЛЕНТИНА") || x.Contains ("С ДНЁМ ЗАЩИТНИКА ОТЕЧЕСТВА") || x.Contains ("С ДНЕМ ЗАЩИТНИКА ОТЕЧЕСТВА") || Console.WriteLine ("С праздником!");
+				if (x.Contains (""))
 			}
 
 		}
